@@ -144,7 +144,7 @@ a.nav-link.active {
   color: var(--primary-color) !important;
   text-decoration: underline;
 }
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   h1 {
     font-size: 36px !important;
     font-family: "Press Start 2P", cursive;
@@ -161,5 +161,15 @@ a.nav-link.active {
   h4 {
     font-size: 20px !important;
     font-family: "Press Start 2P", cursive;
+  }
+  .contact-link {
+    padding: 20px 140px;
+    text-align: center;
+  }
+}
+@media (max-width: 400px) {
+  .contact-link {
+    padding: 20px 100px;
+    text-align: center;
   }
 }
