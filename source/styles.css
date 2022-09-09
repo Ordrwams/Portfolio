@@ -1,0 +1,165 @@
+:root {
+  --primary-color: #ff2e9f;
+  --secondary-color: #a3ff2e;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  margin: 60px auto;
+  max-width: 1480px;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+img {
+  vertical-align: middle;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 48px !important;
+  font-family: "Press Start 2P", cursive;
+}
+
+h2 {
+  font-size: 36px !important;
+}
+
+h3 {
+  font-size: 18px !important;
+  opacity: 0.7;
+}
+
+h4 {
+  font-size: 24px !important;
+  font-family: "Press Start 2P", cursive;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.h2-title {
+  padding-left: 20px;
+}
+
+p {
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+.front {
+  color: var(--primary-color);
+}
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 36px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.contact-link {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 36px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  font-weight: bold;
+}
+.contact-link:hover {
+  color: white;
+}
+
+.img-about {
+  border: 2px;
+  border-radius: 4px;
+}
+
+.about-link {
+  color: black;
+  background-color: var(--secondary-color);
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.icon-social {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link {
+  color: black !important;
+}
+
+a.nav-link.active {
+  color: var(--primary-color) !important;
+  text-decoration: underline;
+}
+@media (max-width: 400px) {
+  h1 {
+    font-size: 36px !important;
+    font-family: "Press Start 2P", cursive;
+  }
+  h2 {
+    font-size: 24px !important;
+  }
+  h3 {
+    font-size: 16px !important;
+  }
+  p {
+    font-size: 14px;
+  }
+  h4 {
+    font-size: 20px !important;
+    font-family: "Press Start 2P", cursive;
+  }
+}
