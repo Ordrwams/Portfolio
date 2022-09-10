@@ -42,8 +42,12 @@ h4 {
 
 footer {
   background-color: black;
+  padding: 10px 0;
   color: white;
   text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .h2-title {
@@ -93,6 +97,10 @@ p {
 }
 .contact-link:hover {
   color: white;
+}
+
+.contact-section {
+  margin: 130px auto;
 }
 
 .img-about {
